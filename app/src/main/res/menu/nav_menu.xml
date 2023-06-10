@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/iplikDonusumFragment"
+        android:title="İplik No Dönüşümleri" />
+    <item
+        android:id="@+id/bobinMetreHesapFragment"
+        android:title="Bobinden Metre Hesaplama" />
+    <item
+        android:id="@+id/gunlukUretimFragment"
+        android:title="Dokuma Günlük Üretim" />
+    <item
+        android:id="@+id/toplamCozguTelSayisiHesaplamaFragment"
+        android:title="Mamülden Toplam Çözgü Tel Sayısı" />
+    <item
+        android:id="@+id/atkiGiderFragment"
+        android:title="Atkı Gideri Hesabı" />
+    <item
+        android:id="@+id/cozguHesapFrgment"
+        android:title="Çözgü Hesaplamaları" />
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activitynav"
+    app:startDestination="@id/iplikDonusumFragment">
+
+    <fragment
+        android:id="@+id/iplikDonusumFragment"
+        android:name="com.example.dokumauretimheaplamalar.IplikDonusumFragment"
+        android:label="fragment_iplik_donusum"
+        tools:layout="@layout/fragment_iplik_donusum" />
+    <fragment
+        android:id="@+id/bobinMetreHesapFragment"
+        android:name="com.example.dokumauretimheaplamalar.BobinMetreHesapFragment"
+        android:label="fragment_bobin_metre_hesap"
+        tools:layout="@layout/fragment_bobin_metre_hesap" />
+    <fragment
+        android:id="@+id/gunlukUretimFragment"
+        android:name="com.example.dokumauretimheaplamalar.GunlukUretimFragment"
+        android:label="fragment_gunluk_uretim"
+        tools:layout="@layout/fragment_gunluk_uretim" />
+    <fragment
+        android:id="@+id/toplamCozguTelSayisiHesaplamaFragment"
+        android:name="com.example.dokumauretimheaplamalar.ToplamCozguTelSayisiHesaplamaFragment"
+        android:label="fragment_toplam_cozgu_tel_sayisi_hesaplama"
+        tools:layout="@layout/fragment_toplam_cozgu_tel_sayisi_hesaplama" />
+    <fragment
+        android:id="@+id/cozguHesapFrgment"
+        android:name="com.example.dokumauretimheaplamalar.CozguHesapFrgment"
+        android:label="fragment_cozgu_hesap_frgment"
+        tools:layout="@layout/fragment_cozgu_hesap_frgment" />
+    <fragment
+        android:id="@+id/atkiGiderFragment"
+        android:name="com.example.dokumauretimheaplamalar.AtkiGiderFragment"
+        android:label="fragment_atkigider"
+        tools:layout="@layout/fragment_atkigider" />
+</navigation>

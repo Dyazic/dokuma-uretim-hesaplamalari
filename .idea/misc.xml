@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2115" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/drawable/popup_icon.xml" value="0.2065" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/activity_iplikdonusum.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_atkigider.xml" value="0.22" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_bobin_metre_hesap.xml" value="0.33" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_cozgu_hesap_frgment.xml" value="0.25" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_gunluk_uretim.xml" value="0.25" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_iplik_donusum.xml" value="0.25" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_maliyet.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/fragment_toplam_cozgu_tel_sayisi_hesaplama.xml" value="0.22" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/layout/navigation_baslik.xml" value="0.17" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/menu/iplik_popup_menu.xml" value="0.16" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/menu/nav_menu.xml" value="0.1717948717948718" />
+        <entry key="..\:/Users/deniz/AndroidStudioProjects/DokumaUretimHeaplamalar/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
