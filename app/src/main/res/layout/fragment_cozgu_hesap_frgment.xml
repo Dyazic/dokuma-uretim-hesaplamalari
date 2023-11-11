@@ -280,10 +280,10 @@
                 android:layout_marginTop="50dp"
                 android:text="Toplam Rapor Boyu= "
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/buttonHesapla" />
+                app:layout_constraintTop_toBottomOf="@+id/buttonIpHesapla" />
 
             <Button
-                android:id="@+id/buttonHesapla"
+                android:id="@+id/buttonIpHesapla"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"

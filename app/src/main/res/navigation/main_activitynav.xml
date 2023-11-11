@@ -35,4 +35,9 @@
         android:name="com.example.dokumauretimheaplamalar.AtkiGiderFragment"
         android:label="fragment_atkigider"
         tools:layout="@layout/fragment_atkigider" />
+    <fragment
+        android:id="@+id/iplikAnalizFragment"
+        android:name="com.example.dokumauretimheaplamalar.IplikAnalizFragment"
+        android:label="fragment_iplik_analiz"
+        tools:layout="@layout/fragment_iplik_analiz" />
 </navigation>

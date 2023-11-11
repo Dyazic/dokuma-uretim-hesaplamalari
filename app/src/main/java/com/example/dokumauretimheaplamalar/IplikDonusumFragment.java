@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment;
 
 import android.text.TextUtils;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -35,13 +34,13 @@ private Toolbar toolbarIplik;
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View tasarim = inflater.inflate(R.layout.fragment_iplik_donusum, container, false);
-        editTextİplikNo = tasarim.findViewById(R.id.editTextİplikNo);
+        editTextİplikNo = tasarim.findViewById(R.id.editIplikUz);
      //editTextİplikNo.setText("0");
-        textViewSayi1 = tasarim.findViewById(R.id.textViewSayi1);
+        textViewSayi1 = tasarim.findViewById(R.id.textViewSayi);
         textViewSayi2 = tasarim.findViewById(R.id.textViewSayi2);
         textViewSayi3 = tasarim.findViewById(R.id.textViewSayi3);
         textViewIplikNo=tasarim.findViewById(R.id.textViewIplikNo);
-        buttonIplikPopupAc = tasarim.findViewById(R.id.buttonIplikPopupAc);
+        buttonIplikPopupAc = tasarim.findViewById(R.id.buttonIplikPopupAcIpHesap);
         toolbarIplik=tasarim.findViewById(R.id.toolbarIplik);
         toolbarIplik.setSubtitle("İplik Dönüşüm");
 

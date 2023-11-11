@@ -59,6 +59,7 @@ float iplikGider4;
 float iplikGider5;
 int toplamRaporBoyu;
 
+    @SuppressLint("MissingInflatedId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -95,7 +96,7 @@ int toplamRaporBoyu;
         buttonPopupCozUc=tasarim.findViewById(R.id.buttonPopupCozUc);
         buttonPopupCozDort=tasarim.findViewById(R.id.buttonPopupCozDort);
         buttonPopupCozBes=tasarim.findViewById(R.id.buttonPopupCozBes);
-        buttonHesapla=tasarim.findViewById(R.id.buttonHesapla);
+        buttonHesapla=tasarim.findViewById(R.id.buttonIpHesapla);
            //toolbarı setSupport barı ekleme
             AppCompatActivity activity=(AppCompatActivity) getActivity();
                     activity.setSupportActionBar(toolbarCozguHesap);

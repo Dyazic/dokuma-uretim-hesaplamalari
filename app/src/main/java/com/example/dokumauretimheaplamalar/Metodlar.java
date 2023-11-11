@@ -49,5 +49,29 @@ public class Metodlar {
         return atkiMt;
 
     }
+    public double toplamIplikUzunluk(int adet,double ipUzunluk){
+        double toplamIplikUzunluk= (adet * ipUzunluk) / 100;
+        return toplamIplikUzunluk;
+    }
+    public double neNoHesap(double ipUz, double ipGramaj){
+      double neNo=ipUz*453.6/(768*ipGramaj);
+      return neNo;
+    }
+    public double nmNoHesap(double ipUz, double ipGramaj){
+        double nmNo=ipUz/ipGramaj;
+        return nmNo;
+    }
+    public double dnNoHesap(double ipUz, double ipGramaj){
+        double dnNo=9000*ipGramaj/ ipUz;
+        return dnNo;
+    }
+    public double texNoHesap(double ipUz, double ipGramaj){
+        double texNo=1000*ipGramaj/ ipUz;
+        return texNo;
+    }
+    public double gramajHesap(double x,double y, double kumasGram){
+        double gramaj=10000*kumasGram/(x*y);
+        return gramaj;
+    }
 
 }
