@@ -15,6 +15,15 @@
     <color name="primarytext">#212121</color>
     <color name="seconderytext">#757575</color>
     <color name="dvidedcolor">#BDBDBD</color>
+    <color name="gunduztoolbar">#388E3C</color>
+    <color name="gunduzarkaplan">#C5C8C5</color>
+    <color name="gunduzbutton">#8BC34A</color>
+    <color name="gunduzyazi">#373A32</color>
+    <color name="gecetoolbar">#283E03</color>
+    <color name="gecearkaplan">#525350</color>
+    <color name="gecebutton">#759C35</color>
+    <color name="geceyazi">#E0E3DC</color>
+
 
 
 
