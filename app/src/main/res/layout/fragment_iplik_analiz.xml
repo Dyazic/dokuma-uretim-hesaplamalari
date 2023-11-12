@@ -32,7 +32,7 @@
         android:textColor="#939393"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarIplik"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarIplikAnaliz"
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonIpHesapla" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbarIplik"
+        android:id="@+id/toolbarIplikAnaliz"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:background="?attr/colorPrimary"

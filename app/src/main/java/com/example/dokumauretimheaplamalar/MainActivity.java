@@ -19,33 +19,29 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawer;
     private NavigationView NavigationView;
 
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        drawer=findViewById(R.id.drawer);
-        NavigationView=findViewById(R.id.NavigationView);
-       toolbar=findViewById(R.id.toolbar);
+        drawer = findViewById(R.id.drawer);
+        NavigationView = findViewById(R.id.NavigationView);
+        toolbar = findViewById(R.id.toolbar);
         toolbar.setTitle("Dokuma Üretim Hesaplamaları");
-        NavHostFragment navHostFragment=
+        NavHostFragment navHostFragment =
                 (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.navHostFragment);
-        NavigationUI.setupWithNavController(NavigationView,navHostFragment.getNavController());
-        ActionBarDrawerToggle toggle=
-                new ActionBarDrawerToggle(this,drawer,toolbar,0,0);
+        NavigationUI.setupWithNavController(NavigationView, navHostFragment.getNavController());
+        ActionBarDrawerToggle toggle =
+                new ActionBarDrawerToggle(this, drawer, toolbar, 0, 0);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
-        View baslik=NavigationView.inflateHeaderView(R.layout.navigation_baslik);
-        TextView textViewBaslik=baslik.findViewById(R.id.textViewBaslik);
+        View baslik = NavigationView.inflateHeaderView(R.layout.navigation_baslik);
+        TextView textViewBaslik = baslik.findViewById(R.id.textViewBaslik);
         textViewBaslik.setText("Dokuma Hesaplamaları");
     }
 
-
-
-    @Override
     public void onBackPressed() {//geri tuşuyla draweri kapatma.
-        if(drawer.isDrawerOpen(GravityCompat.START)){
-           drawer.closeDrawer(GravityCompat.START);
-        }else{
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
             super.onBackPressed();
         }
     }
