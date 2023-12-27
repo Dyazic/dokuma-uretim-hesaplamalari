@@ -29,8 +29,9 @@
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbarBobinMt"
                     android:layout_width="0dp"
-                    android:layout_height="40dp"
-                    android:background="?attr/colorPrimary"
+                    android:layout_height="30dp"
+                    android:background="@drawable/toolbar_bg"
+
                     android:minHeight="?attr/actionBarSize"
                     android:theme="?attr/actionBarTheme"
                     app:layout_constraintEnd_toEndOf="parent"

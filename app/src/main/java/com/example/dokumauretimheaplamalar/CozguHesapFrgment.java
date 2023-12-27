@@ -95,8 +95,7 @@ public class CozguHesapFrgment extends Fragment {
         buttonPopupCozBes = tasarim.findViewById(R.id.buttonPopupCozBes);
         buttonHesapla = tasarim.findViewById(R.id.buttonIpHesapla);
         //toolbarı setSupport barı ekleme
-        AppCompatActivity activity = (AppCompatActivity) getActivity();
-        activity.setSupportActionBar(toolbarCozguHesap);
+        
         buttonPopupCozBir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
