@@ -29,6 +29,7 @@ public class IplikDonusumFragment extends Fragment {
     float sonucTex;
     private Toolbar toolbarIplik;
 
+
     @SuppressLint("NonConstantResourceId")
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -42,6 +43,7 @@ public class IplikDonusumFragment extends Fragment {
         buttonIplikPopupAc = tasarim.findViewById(R.id.buttonIplikPopupAcIpHesap);
         toolbarIplik = tasarim.findViewById(R.id.toolbarIplikAnaliz);
         toolbarIplik.setSubtitle("İplik Dönüşüm");
+
         buttonIplikPopupAc.setOnClickListener(view -> {
             String iplikNoS = editTextİplikNo.getText().toString();
             if (TextUtils.isEmpty(iplikNoS)) {//bu kalıp sadece string değerlerde çalışır

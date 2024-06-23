@@ -8,73 +8,82 @@
 
     <EditText
         android:id="@+id/editIplikUz"
-        android:layout_width="110dp"
+        android:layout_width="60dp"
         android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="44dp"
+        android:background="@drawable/edittext_bg"
         android:ems="10"
-        android:hint="İplik No Girin"
         android:inputType="number"
         android:textColor="#939393"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarIplikAnaliz"
+        app:layout_constraintEnd_toStartOf="@+id/textViewIplikNo"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="@+id/textView18"
         tools:ignore="TouchTargetSizeCheck" />
-
-    <TextView
-        android:id="@+id/textViewIplikNo"
-        android:layout_width="70sp"
-        android:layout_height="40dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="44dp"
-        android:textColor="#939393"
-        android:textSize="20sp"
-        app:layout_constraintStart_toEndOf="@+id/editIplikUz"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarIplikAnaliz" />
 
     <Button
         android:id="@+id/buttonIplikPopupAcIpHesap"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginStart="30dp"
         android:text="Button"
         app:icon="@drawable/popup_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textViewIplikNo"
-        app:layout_constraintTop_toBottomOf="@+id/toolbarIplikAnaliz" />
+        app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textViewIplikNo"
+        android:layout_width="70sp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/edittext_bg"
+        android:textColor="#939393"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/buttonIplikPopupAcIpHesap"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/editIplikUz"
+        app:layout_constraintTop_toTopOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textViewSayi"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="50dp"
-        android:text="sonuç"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/edittext_bg"
+        android:text="Sonuç"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editIplikUz" />
-
-    <TextView
-        android:id="@+id/textViewSayi2"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
-        android:text="sonuç"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewSayi" />
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
     <TextView
         android:id="@+id/textViewSayi3"
         android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edittext_bg"
         android:text="sonuç"
         android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSayi2" />
+
+    <TextView
+        android:id="@+id/textViewSayi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/edittext_bg"
+        android:text="Sonuç"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSayi" />
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarIplikAnaliz"
@@ -87,5 +96,19 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:text="İplik No:"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/editIplikUz"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarIplikAnaliz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,17 +40,17 @@
 
                 <EditText
                     android:id="@+id/editTextBobinGr"
-                    android:layout_width="100dp"
+                    android:layout_width="150dp"
                     android:layout_height="50dp"
                     android:layout_marginTop="40dp"
                     android:autofillHints=""
+                    android:background="@drawable/edittext_bg"
                     android:ems="10"
-                    android:hint="Bobin Gramajı"
                     android:inputType="number"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView19"
                     app:layout_constraintTop_toBottomOf="@+id/toolbarBobinMt" />
 
                 <Button
@@ -68,24 +68,22 @@
                     android:id="@+id/editTextIplikNo"
                     android:layout_width="90dp"
                     android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="50dp"
                     android:autofillHints=""
+                    android:background="@drawable/edittext_bg"
                     android:ems="10"
-                    android:hint="İplik No"
                     android:inputType="number"
                     android:textSize="20sp"
-                    app:layout_constraintEnd_toStartOf="@+id/textViewIpNo"
-                    app:layout_constraintHorizontal_bias="0.5"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/textView20"
                     app:layout_constraintTop_toBottomOf="@+id/editTextBobinGr"
                     tools:ignore="DuplicateSpeakableTextCheck" />
 
                 <Button
                     android:id="@+id/buttonPopUpAcBobin"
-                    android:layout_width="80dp"
+                    android:layout_width="60dp"
                     android:layout_height="50dp"
-                    android:layout_marginStart="30dp"
-                    android:text="İplik No"
+                    android:layout_marginStart="15dp"
                     app:icon="@android:drawable/arrow_down_float"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
@@ -97,18 +95,18 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
+                    android:background="@drawable/edittext_bg"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.51"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView21"
                     app:layout_constraintTop_toBottomOf="@+id/textViewIpNo" />
 
                 <TextView
                     android:id="@+id/textViewIpNo"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
-                    android:layout_marginStart="30dp"
-                    android:text="DN"
+                    android:background="@drawable/edittext_bg"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toStartOf="@+id/buttonPopUpAcBobin"
@@ -118,16 +116,17 @@
 
                 <EditText
                     android:id="@+id/editTextKabloSayisi"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="125dp"
+                    android:layout_height="48dp"
                     android:layout_marginTop="60dp"
                     android:autofillHints=""
+                    android:background="@drawable/edittext_bg"
                     android:ems="10"
-                    android:hint="Kablo sayısı girin"
                     android:inputType="number"
                     android:textSize="20sp"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/textView30"
                     app:layout_constraintTop_toBottomOf="@+id/textViewBobinMt" />
 
                 <TextView
@@ -137,12 +136,62 @@
                     android:layout_marginTop="50dp"
                     android:layout_marginBottom="50dp"
                     android:text="Çözgü Metresi"
+                    android:background="@drawable/edittext_bg"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.543"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/buttonCozguHesapla" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Bobin Gramajı :"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toStartOf="@+id/editTextBobinGr"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextBobinGr" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="78dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="İplik No :"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toStartOf="@+id/editTextIplikNo"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextIplikNo" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Bobin Metresi :"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toStartOf="@+id/textViewBobinMt"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/textViewBobinMt" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="Kablo Sayısı :"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toStartOf="@+id/editTextKabloSayisi"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/editTextKabloSayisi" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
